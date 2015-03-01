@@ -19,15 +19,15 @@ def fly(*data)
   after(3.seconds) { drone.hover }
   after(5.seconds) { drone.up(0.5) }
 
-  after(7.seconds) {
+  after(7.seconds) do
     drone.turn_right(0.5)
     drone.forward(0.4)
-  }
+  end
 
-  after(9.seconds) {
+  after(9.seconds) do
     drone.turn_left(0.5)
     drone.backward(0.4)
-  }
+  end
 
   after(11.seconds) { drone.hover }
   after(15.seconds) { drone.land }
