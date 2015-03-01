@@ -6,7 +6,7 @@ I've been using this boilerplate code as a tool to show how programming can be f
 
 ## 'Plug & fly'
 
-`git clone https://github.com/dcarral/ardrone_playground.git`
+`git clone git@github.com:dcarral/ardrone_playground.git`
 
 `cd ardrone_playground && bundle install`
 
